@@ -17,7 +17,7 @@ public protocol Verb {
 }
 
 public extension Verb {
-    /// This can be overridden by structs
+    /// This can be overridden in implementations
     func defaultEffect(_ content: String) -> String {
         applyingEffect("$1", in: content)
     }
