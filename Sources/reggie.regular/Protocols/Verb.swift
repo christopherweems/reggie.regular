@@ -31,3 +31,9 @@ public extension Verb {
     }
     
 }
+
+public extension Verb {
+    func callAsFunction(_ content: String) -> String {
+        defaultEffect(content)
+    }
+}
