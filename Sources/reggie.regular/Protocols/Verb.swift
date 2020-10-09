@@ -25,7 +25,7 @@ public extension Verb {
 }
 
 public extension Verb {
-    /// convienence for
+    /// convienence for custom accessors like `AVerb.secondaryEffect("content-string")`
     func applyingEffect(_ replacement: String, in content: String) -> String {
         content.replacingOccurrences(of: pattern, with: replacement, options: .regularExpression)
     }
@@ -36,4 +36,5 @@ public extension Verb {
     func callAsFunction(_ content: String) -> String {
         defaultEffect(content)
     }
+    
 }
