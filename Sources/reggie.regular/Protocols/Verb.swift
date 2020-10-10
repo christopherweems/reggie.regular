@@ -38,3 +38,8 @@ public extension Verb {
     }
     
 }
+
+public extension Verb {
+    typealias Line = RegexLine
+    
+}
