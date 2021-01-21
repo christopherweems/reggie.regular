@@ -39,11 +39,11 @@
       },
       {
         "package": "unstandard",
-        "repositoryURL": "https://github.com/christopherweems/unstandard.git",
+        "repositoryURL": "https://github.com/christopherweems/unstandard",
         "state": {
           "branch": null,
-          "revision": "1e7b7ef5aefb82b6375c2ef12b6fefbdcc244a84",
-          "version": "0.0.18"
+          "revision": "8e0ae959a57aba8a14b789561ec9ec87012c3c1d",
+          "version": "0.0.20"
         }
       }
     ]
