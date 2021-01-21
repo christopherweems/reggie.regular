@@ -19,7 +19,7 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/christopherweems/unstandard", .upToNextMajor(from: "0.0.20")),
+        .package(url: "https://github.com/christopherweems/unstandard.git", .upToNextMajor(from: "0.0.21")),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
