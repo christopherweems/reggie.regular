@@ -8,8 +8,9 @@
 import Foundation
 
 public protocol Verb {
+    typealias Pattern = String
     /// A regular expression with one or more capture groups
-    var pattern: String { get }
+    var pattern: Pattern { get }
     
     /// `$1` of `pattern`, if not explicitly set
     func defaultEffect(_ content: String) -> String
