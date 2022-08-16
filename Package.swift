@@ -1,6 +1,4 @@
-// swift-tools-version:5.4
-// The swift-tools-version declares the minimum version of Swift required to build this package.
-
+// swift-tools-version:5.7
 import PackageDescription
 
 let package = Package(
@@ -12,25 +10,25 @@ let package = Package(
         .watchOS(.v6),
     ],
     products: [
-        // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "reggie.regular",
             targets: ["reggie.regular"]),
+        
     ],
     dependencies: [
-        // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/christopherweems/unstandard.git", .upToNextMajor(from: "0.4.0")),
+        .package(url: "https://github.com/christopherweems/unstandard.git", branch: "five.seven"),
+        
     ],
     targets: [
-        // Targets are the basic building blocks of a package. A target can define a module or a test suite.
-        // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "reggie.regular",
             dependencies: [
                 .product(name: "unstandard", package: "unstandard"),
             ]),
+        
         .testTarget(
             name: "reggie.regularTests",
             dependencies: ["reggie.regular"]),
+        
     ]
 )
