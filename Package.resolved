@@ -50,7 +50,7 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/christopherweems/unstandard.git",
       "state" : {
-        "branch" : "five.seven",
+        "branch" : "main",
         "revision" : "e455bc317da71492a202652c4fd2ba19e42d3838"
       }
     }

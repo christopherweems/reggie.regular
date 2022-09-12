@@ -16,7 +16,7 @@ let package = Package(
         
     ],
     dependencies: [
-        .package(url: "https://github.com/christopherweems/unstandard.git", branch: "five.seven"),
+        .package(url: "https://github.com/christopherweems/unstandard.git", branch: "main"),
         
     ],
     targets: [
